@@ -17,7 +17,7 @@ You can use this configuration from the kernel cmdline:
 ```
 ... coreos.config.url=https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/ignition/latest.json ...
 ```
-On PXE, you will also need `coreos.first_boot=1`, according to the (documentation)[https://coreos.com/ignition/docs/latest/boot-process.html).
+On PXE, you will also need `coreos.first_boot=1`, according to the [documentation](https://coreos.com/ignition/docs/latest/boot-process.html).
 
 It also allows you to select a version in particular:
 ```
