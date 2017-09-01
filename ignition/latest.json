@@ -1,1 +1,29 @@
-17.06.1.json
+{
+  "ignition": { "version": "2.1.0" },
+  "storage": {
+    "files": [
+    {
+      "filesystem": "root",
+      "path": "/etc/torcx/next-profile",
+      "contents": {
+        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/next-profile"
+      }
+    },
+    {
+      "filesystem": "root",
+      "path": "/etc/torcx/profiles/docker-alpha.json",
+      "contents": {
+        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/profiles/docker.json"
+      }
+    },
+    {
+      "filesystem": "root",
+      "path": "/var/lib/torcx/store/docker:alpha.torcx.tgz",
+      "contents": {
+        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/store/docker:17.06.1.torcx.tgz",
+        "verification": { "hash": "sha512-cb4edea961d92e35c8f7d017f3647d4fd1c1653e38e0bdb09c32de1af8adf09ce4c42be45a5112da052e722d101241967a6310dfa1b5d2501362e185011a7f22" }
+      }
+    }
+    ]
+  }
+}
