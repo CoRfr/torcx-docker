@@ -20,8 +20,8 @@
       "filesystem": "root",
       "path": "/var/lib/torcx/store/docker:alpha.torcx.tgz",
       "contents": {
-        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/store/docker:17.06.1.torcx.tgz",
-        "verification": { "hash": "sha512-cb4edea961d92e35c8f7d017f3647d4fd1c1653e38e0bdb09c32de1af8adf09ce4c42be45a5112da052e722d101241967a6310dfa1b5d2501362e185011a7f22" }
+        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/store/docker:17.09.0.torcx.tgz",
+        "verification": { "hash": "sha512-a59ddc784a293d4ab17fbabbcc9e96a5a1b74b169351489ccc0a8860ebe97b0d22d1fc883f06d8318ac63c007d6fc6bdc9a5ed713a13a7a90377d7c76b7ae08f" }
       }
     }
     ]

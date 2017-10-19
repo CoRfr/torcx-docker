@@ -1,0 +1,29 @@
+{
+  "ignition": { "version": "2.1.0" },
+  "storage": {
+    "files": [
+    {
+      "filesystem": "root",
+      "path": "/etc/torcx/next-profile",
+      "contents": {
+        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/next-profile"
+      }
+    },
+    {
+      "filesystem": "root",
+      "path": "/etc/torcx/profiles/docker-alpha.json",
+      "contents": {
+        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/profiles/docker.json"
+      }
+    },
+    {
+      "filesystem": "root",
+      "path": "/var/lib/torcx/store/docker:alpha.torcx.tgz",
+      "contents": {
+        "source": "https://raw.githubusercontent.com/CoRfr/torcx-docker-binaries/master/torcx/store/docker:17.06.2.torcx.tgz",
+        "verification": { "hash": "sha512-cadb70ba06b721a859f6f5f518c64386e07571fc41e8b6b1d5ca642c420e03168045678f8e8b89192fd14103e3c141d097fbece95217e97da41a50dfc67e0c81" }
+      }
+    }
+    ]
+  }
+}
